@@ -4,7 +4,7 @@ class MainModel extends ChangeNotifier {
   String tomoText = 'ムキムキ';
 
   void changetomoText() {
-    tomoText = 'ムキムキになろう!!!';
+    tomoText = 'ムキムキになろう';
     notifyListeners();
   }
 }
